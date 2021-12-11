@@ -32,6 +32,8 @@ store.subscribe(() => {
 
 // Dispatch
 store.dispatch(increment());
+store.dispatch(decrement());
+store.dispatch(decrement());
 
 ReactDOM.render(
   <React.StrictMode>
